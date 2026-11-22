@@ -1,0 +1,233 @@
+{
+ "about": "Synthetic fixtures. Every name, number and address is invented; hosts use reserved example domains and 555-01xx numbers.",
+ "fixtures": [
+  {
+   "id": "pii-insurer-email",
+   "group": "pii",
+   "question": "Draft a reply to the claims adjuster Tomas Verhoeven (tverhoeven@claims.example, (555) 014\u002d7731) about claim 48213377 on my policy. I'm Mara Okonkwo-Lind, born March 9, 1988, I live at 1428 Larch Street, Pinewick, CO 80202. My card was 4111 1111 1111 1111 and my IBAN is GB82 WEST 1234 5698 7654 32. Reach me on mara.lind@example.org or +44 20 7946 0958. Say the water damage was reported within a day and ask what they still need.",
+   "terms": [
+    "Mara Okonkwo-Lind",
+    "Pinewick"
+   ],
+   "names": [
+    "Tomas Verhoeven"
+   ],
+   "planted": [
+    {
+     "value": "Mara Okonkwo-Lind",
+     "variants": [
+      "mara okonkwo"
+     ]
+    },
+    {
+     "value": "Tomas Verhoeven",
+     "variants": [
+      "Verhoeven"
+     ]
+    },
+    {
+     "value": "tverhoeven@claims.example"
+    },
+    {
+     "value": "(555) 014\u002d7731",
+     "variants": [
+      "555\u002d014\u002d7731",
+      "014-7731"
+     ]
+    },
+    {
+     "value": "48213377"
+    },
+    {
+     "value": "March 9, 1988",
+     "variants": [
+      "9 March 1988",
+      "1988-03-09"
+     ]
+    },
+    {
+     "value": "1428 Larch Street"
+    },
+    {
+     "value": "Pinewick"
+    },
+    {
+     "value": "80202"
+    },
+    {
+     "value": "4111 1111 1111 1111",
+     "variants": [
+      "4111111111111111"
+     ]
+    },
+    {
+     "value": "GB82 WEST 1234 5698 7654 32",
+     "variants": [
+      "GB82WEST12345698765432"
+     ]
+    },
+    {
+     "value": "mara.lind@example.org"
+    },
+    {
+     "value": "+44 20 7946 0958",
+     "variants": [
+      "7946 0958"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pii-employer-hr",
+   "group": "pii",
+   "question": "My employer Halden Freight in Pinewick told me on 2026-02-17 that employee ID HF-0047291 was flagged. The HR contact is Ilse Brandvold. What are my options if I think this was retaliation?",
+   "terms": [
+    "Halden Freight",
+    "Pinewick"
+   ],
+   "names": [
+    "Ilse Brandvold"
+   ],
+   "planted": [
+    {
+     "value": "Halden Freight",
+     "variants": [
+      "halden"
+     ]
+    },
+    {
+     "value": "Pinewick"
+    },
+    {
+     "value": "Ilse Brandvold",
+     "variants": [
+      "Brandvold"
+     ]
+    },
+    {
+     "value": "HF-0047291",
+     "variants": [
+      "0047291"
+     ]
+    },
+    {
+     "value": "2026-02-17",
+     "variants": [
+      "February 17, 2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pii-landlord-reply",
+   "group": "pii",
+   "question": "Write back to my landlord Percival Dunmore (pdunmore@rentals.example, 555\u002e014\u002e2297). The unit is 22 Quarry Lane, Apt 4, Pinewick, CO 80202. I'm Mara Okonkwo-Lind. Ask for the deposit back within 30 days and keep it polite.",
+   "terms": [
+    "Mara Okonkwo-Lind",
+    "Pinewick"
+   ],
+   "names": [
+    "Percival Dunmore"
+   ],
+   "planted": [
+    {
+     "value": "Percival Dunmore",
+     "variants": [
+      "Dunmore"
+     ]
+    },
+    {
+     "value": "pdunmore@rentals.example"
+    },
+    {
+     "value": "555\u002e014\u002e2297",
+     "variants": [
+      "014.2297"
+     ]
+    },
+    {
+     "value": "22 Quarry Lane, Apt 4"
+    },
+    {
+     "value": "80202"
+    },
+    {
+     "value": "Pinewick"
+    },
+    {
+     "value": "Mara Okonkwo-Lind"
+    }
+   ]
+  },
+  {
+   "id": "pii-doctor-bill",
+   "group": "pii",
+   "question": "The clinic billed me twice for the visit on July 14, 2025. My SSN (123\u002d45\u002d6789) is on the form. Dr. Ngozi Falkenrath's office is at (555) 014\u002d6610, in Pinewick. How do I dispute a duplicate charge?",
+   "terms": [
+    "Pinewick"
+   ],
+   "names": [
+    "Ngozi Falkenrath"
+   ],
+   "planted": [
+    {
+     "value": "123\u002d45\u002d6789"
+    },
+    {
+     "value": "July 14, 2025",
+     "variants": [
+      "14 July 2025",
+      "2025-07-14"
+     ]
+    },
+    {
+     "value": "Ngozi Falkenrath",
+     "variants": [
+      "Falkenrath"
+     ]
+    },
+    {
+     "value": "(555) 014\u002d6610",
+     "variants": [
+      "014-6610"
+     ]
+    },
+    {
+     "value": "Pinewick"
+    }
+   ]
+  },
+  {
+   "id": "ctl-photosynthesis",
+   "group": "control",
+   "question": "Explain how photosynthesis turns light into sugar, in two paragraphs.",
+   "terms": [],
+   "names": [],
+   "planted": []
+  },
+  {
+   "id": "ctl-tcp-udp",
+   "group": "control",
+   "question": "What's the difference between TCP and UDP, and when would I pick UDP in version 1.2.3 of a game protocol?",
+   "terms": [],
+   "names": [],
+   "planted": []
+  },
+  {
+   "id": "ctl-ottoman-end",
+   "group": "control",
+   "question": "Why did the Ottoman Empire end between 1918 and 1922 [3]? Keep it to a short answer.",
+   "terms": [],
+   "names": [],
+   "planted": []
+  },
+  {
+   "id": "ctl-sourdough",
+   "group": "control",
+   "question": "Why does sourdough get more sour when it proofs in the fridge for 2 days?",
+   "terms": [],
+   "names": [],
+   "planted": []
+  }
+ ]
+}
